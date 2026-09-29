@@ -12,7 +12,7 @@ Python 3.11, пакеты из `requirements.txt`. `torch`/`torchvision` ста�
 pip install -r requirements.txt
 ```
 
-Для инференса чекпоинты нужно положить в `weights/` с именами `{experiment}_{checkpoint}.ckpt`, как в `config.py`.
+Для инференса чекпоинты нужно скачать по ссылке https://drive.google.com/file/d/1VpRhGBQlzMUD9KoBloc30mUCckiH0PtO/view?usp=sharing и положить в `weights/` с именами `{experiment}_{checkpoint}.ckpt`, как в `config.py`.
 
 ```python
 from pipeline import DXAPipeline
