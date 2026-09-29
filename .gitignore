@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.DS_Store
+.ipynb_checkpoints/
+
+weights/*
+!weights/.gitkeep
+
+*.csv
+*.xlsx
+*.png
